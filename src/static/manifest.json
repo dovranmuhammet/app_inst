@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "SolidJS Extension",
+  "description": "Extension using solidJS and TypeScript",
+  "version": "0.0.1",
+  "action": {
+    "default_title": "SolidJS Based Extension",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
