@@ -9,13 +9,6 @@ function createLocalStore<T>(initState: T): [Store<T>, SetStoreFunction<T>] {
   return [state, setState];
 }
 
-const Home: Component = () => (
-  <>
-    <h1>Welcome to this Simple Routing Example</h1>
-    <p>Click the links in the Navigation above to load different routes.</p>
-  </>
-);
-
 const App = () => {
   const [state, setState] = createLocalStore({
     todos: [],

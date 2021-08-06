@@ -3,6 +3,8 @@
   "name": "SolidJS Extension",
   "description": "Extension using solidJS and TypeScript",
   "version": "0.0.1",
+  "minimum_chrome_version": "89",
+
   "action": {
     "default_title": "SolidJS Based Extension",
     "default_popup": "popup.html"
@@ -16,6 +18,8 @@
   "background": {
     "service_worker": "background.js"
   },
+  "permissions": ["cookies", "storage", "notifications"],
+  "host_permissions": ["*://*.instagram.com/*", "*://*.cdninstagram.com/*"],
   "content_scripts": [
     {
       "matches": ["<all_urls>"],

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --watch --progress --config webpack/webpack.dev.js",
+    "start": "clear; webpack --watch --progress --config webpack/webpack.dev.js",
     "build": "webpack --config webpack/webpack.prod.js"
   },
   "author": "",
