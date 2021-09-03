@@ -1,5 +1,5 @@
-import { InstagramAPI } from '../app/libs/Instagram';
-import { createNotification } from '../app/libs/notification.js';
+import { InstagramAPI } from '../libs/Instagram';
+import { createNotification } from '../libs/notification.js';
 
 const igClient = InstagramAPI.new();
 

@@ -1,7 +1,7 @@
-import { render } from 'solid-js/web';
-import './popup.css';
+import { render } from "solid-js/web";
+import "./popup.css";
 
-import Home from '../app/views/Home';
+import Home from "./views/Home";
 
 const App = () => {
   return (
