@@ -17,7 +17,7 @@ body {
   width: 960px;
   margin: 0 auto;
   padding: 15px 7px;
-  background-color: #f1f1ef;
+  background-color: #fdf2e9;
   margin-right: 300px;
 }
 
@@ -30,7 +30,7 @@ button {
   text-decoration: none;
   font-weight: 500;
   border-radius: 70px;
-  margin-left: 31px;
+  margin-left: 35px;
   font-size: 18px;
   /* letter-spacing: 3; */
 }
